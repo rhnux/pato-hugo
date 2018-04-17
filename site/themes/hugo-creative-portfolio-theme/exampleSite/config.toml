@@ -1,26 +1,21 @@
-baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "Patricia Iacovino site"
+baseurl = "https://example.org/"
+title = "Creative portfolio"
 theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details:
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-#disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "desing + ilustration"
-  copyright = "&copy;2018 patricia.iacovino | diseño + ilustración"
+  description = "Describe your website"
+  copyright = "&copy;2016 Your name or company"
   sidebarAbout = [
     "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Garden Farm, currently based in Palomar."
+    "Originally from Toronto, currently based in London."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
